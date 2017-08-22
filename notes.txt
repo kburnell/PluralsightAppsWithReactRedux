@@ -1,0 +1,25 @@
+Pluralsight - Building Apps with React and Redux
+
+Dev Enviornment:
+	- https://github.com/coryhouse/pluralsight-redux-starter
+	- https://github.com/coryhouse/react-slingshot
+	- React
+			v15.0.2 (latest v15.6.1)
+	- Redux
+			v3.5.2 (latest v3.7.2 )
+	- React/Router
+			2.4.0 (latest v4.1.2)
+	- Babel
+			6.* (latest 6.23)
+	 		es6 transpilation
+	- Babel-polyfill
+			some features can't be trasnpiled from es6 -> es5, BIG.  Can pull in only polyfills you need
+	- WebPack
+			1.13 (latest v3.5.5)
+	- Mocha
+	- ESLint
+	- Express
+
+	- Live Reloading using babel-preset-react-hmre
+
+	- npm scripts (bit.ly/npmvsgulp)
