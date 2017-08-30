@@ -119,6 +119,9 @@ react-redux
 				* mapDispatchToProps
 					- lets us specify which actions to expose as props
 					- receives dispatch as its only parameter
+					- optional parameter, when not included a 'dispatch' property is automatically injected in to the component via the connect method.
+							* this dispatch property can be accessed with 'this.connect.props'
+							* dispatch is a function that allows you to fire off your actions
 					- returns the callback props that you want to pass down
 					- 3 ways to handle:
 						* ignore it, use dispatch manually passing action creator
@@ -131,6 +134,12 @@ react-redux
 						* use the bindActionCreators convenience function
 							- return { actions: bindActionCreators(actions, dispatch) };
 							- handles the redundancy, but isn't as clear
+
+
+
+
+
+*** Checkout redux-actions: allows for attributing actions in reducers instead of having the big switch statements
 
 
 
