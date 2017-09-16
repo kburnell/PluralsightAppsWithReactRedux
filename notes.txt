@@ -137,9 +137,8 @@ react-redux
 
 
 
-
-
-*** Checkout redux-actions: allows for attributing actions in reducers instead of having the big switch statements
+ToDo: Checkout redux-actions: allows for attributing actions in reducers instead of having the big switch statements
+ToDo: Redux in general is very explicit (verbose/lots of boiler plate).  Some options for reducing this in the docs: http://redux.js.org/docs/recipes/ReducingBoilerplate.html
 
 
 
